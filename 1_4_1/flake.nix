@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-isocodes-1_4_1.flake = false;
+  inputs.src-isocodes-1_4_1.ref   = "refs/tags/1.4.1";
   inputs.src-isocodes-1_4_1.owner = "kraptor";
-  inputs.src-isocodes-1_4_1.ref   = "1_4_1";
   inputs.src-isocodes-1_4_1.repo  = "isocodes";
   inputs.src-isocodes-1_4_1.type  = "github";
   
