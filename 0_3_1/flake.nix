@@ -11,7 +11,6 @@
   inputs.src-isocodes-0_3_1.ref   = "refs/tags/0.3.1";
   inputs.src-isocodes-0_3_1.owner = "kraptor";
   inputs.src-isocodes-0_3_1.repo  = "isocodes";
-  inputs.src-isocodes-0_3_1.dir   = "";
   inputs.src-isocodes-0_3_1.type  = "github";
   
   inputs."jsony".owner = "nim-nix-pkgs";
@@ -21,6 +20,14 @@
   inputs."jsony".type  = "github";
   inputs."jsony".inputs.nixpkgs.follows = "nixpkgs";
   inputs."jsony".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."bump".owner = "nim-nix-pkgs";
+  inputs."bump".ref   = "master";
+  inputs."bump".repo  = "bump";
+  inputs."bump".dir   = "1_8_29";
+  inputs."bump".type  = "github";
+  inputs."bump".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."bump".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 

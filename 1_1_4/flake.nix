@@ -11,7 +11,6 @@
   inputs.src-isocodes-1_1_4.ref   = "refs/tags/1.1.4";
   inputs.src-isocodes-1_1_4.owner = "kraptor";
   inputs.src-isocodes-1_1_4.repo  = "isocodes";
-  inputs.src-isocodes-1_1_4.dir   = "";
   inputs.src-isocodes-1_1_4.type  = "github";
   
   inputs."jsony".owner = "nim-nix-pkgs";
