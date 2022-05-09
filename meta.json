@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/kraptor/isocodes",
   "refs": [
-    "fatal: unable to access 'https://github.com/kraptor/isocodes/': Could not resolve host: github.com",
+    "fatal: unable to access 'https://github.com/kraptor/isocodes/': HTTP/2 stream 1 was not closed cleanly before end of the underlying stream",
     ""
   ],
   "heads": []
