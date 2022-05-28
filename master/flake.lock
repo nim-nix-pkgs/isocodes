@@ -33,11 +33,11 @@
       },
       "locked": {
         "dir": "1_1_3",
-        "lastModified": 1652797112,
-        "narHash": "sha256-K3oKQEKrISHJfK+R/7oeNFVwDQsWD8hRrZ/0W6e2su0=",
+        "lastModified": 1653696427,
+        "narHash": "sha256-SjiHjLxP89B9Y9jV7jR9wj/z7YPowOdS4Ov53Zgzt9k=",
         "owner": "nim-nix-pkgs",
         "repo": "jsony",
-        "rev": "cf2bd8db0020adc2ea17709466ed8989582f0cf2",
+        "rev": "fd7c6f5d2024dd9f611312a514a5ae94303baa39",
         "type": "github"
       },
       "original": {
